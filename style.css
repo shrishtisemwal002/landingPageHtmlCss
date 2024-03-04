@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins";
+}
+body{
+    background-color: #20364b;
+    color: white;
+}
+.webpage{
+    margin: 0px 0px 0px 17px;
+}
+header{
+    margin: 40px 0px 0px 50px;
+    position: relative;
+    height: 100px;
+    font-size: 20px;
+}
+.logo, .navigation, .search{
+    position: absolute;
+}
+.logo img, .logo p{
+    position: absolute;
+}
+.navigation{
+    display: inline;
+    margin-left: 580px;
+}
+.navigation a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(177, 175, 175);
+    font-size: 18px;
+}
+nav a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #f3c924;
+    color: white;   
+}
+.search{
+    margin-left:1150px;
+    background-color:#f3c924;
+    display: grid;
+    height: 35px;   
+    width: 35px;
+    border-radius: 50%;
+    color:  #20364b;
+    padding: 9px 0px 0px 11px;
+    outline: 8px solid #6e683a;
+}
+.container{
+    margin: 15px 65px;
+}
+.leftContainer, .rightContainer{
+    position: absolute;
+}
+.leftContainer{
+    width: 600px;
+
+}
+#heading {
+    margin-top: 5px;
+    font-size: 53px;
+    font-weight: bold;
+}
+#name {
+    position: absolute;
+    margin-top: 0px;
+    width: 284px;
+    height: 34px;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+#email {
+    position: absolute;
+    margin-top: 61px;
+    width: 284px;
+    height: 34px;
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+
+#send {
+    position: absolute;
+    margin-top: 126px;
+    height: 32px;
+    width: 90px;
+    border-radius: 50px;
+    background-color: #f3c924;
+    border: none;
+}
+.rightContainer {
+    margin: -14px 0px 0px 573px;
+    position: absolute;
+    /* border: 2px solid red; */
+}
+#ring, #yellowEllipse, #profile{
+    position: absolute;
+}
+
+#ring {
+    height: 245px;
+    width: 559px;
+    margin: 151px 0px 0px 30px;
+}
+#yellowEllipse {
+    height: 426px;
+    width: 516px;
+}
+#profile {
+    height: 391px;
+    width: 539px;
+}
+#content{
+    max-width: 431px;
+    font-size: 11.5px;
+}
+#rocket{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    margin: -128px 0px 1px 622px;
+}
+
+#message{
+    position: absolute;
+    height: 40px;
+    width: 55px;
+    margin: 341px 100px 153px -108px;
+}
+
+#dart{
+    position: absolute;
+    height: 50px;
+    width: 54px;
+    margin: 420px 0px 0px 565px;
+}
+
+footer{
+    margin: 470px 0px 0px 0px;
+    position: relative;
+}
+
+#blankRect{
+    position: absolute;
+    width: 179px;
+    margin-left: 500px;
+}
+#yellowRect{
+    position: absolute;
+    width: 44px;
+    margin-left: 545px;
+    height: 5px;
+}
+
+#name::placeholder, #email::placeholder{
+    padding: 15px;
+}
