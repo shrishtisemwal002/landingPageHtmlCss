@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="webpage">
+        <!-- navigation bar containing logo and links to other pages and a search icon-->
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo" height="60px" width="60px"/>
+                    <p style="margin: 1px 8px 14px 62px;
+                    font-size: 23px;">Creative</p>
+                    <p style="color: #f3c924;margin: 24px 0px 0px 62px; font-size: 23px;font-weight: 2px;">Marketing</p>
+                </div>
+                <div class="navigation">
+                    <a href="">Home</a>
+                    <a href="">Services <i class="fa-solid fa-caret-down" style="color: #f3c924;"></i>
+                    </a>
+                    <a href="">Blog</a>
+                    <a href="">About</a>
+                    <a href="">FAQ</a>
+                </div> 
+                <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </nav>
+        </header>
+        <!-- container containing the body of the webpage -->
+        <div class="container">
+            <!-- container containing the text of left side -->
+            <div class="leftContainer">
+                    <p id="heading" style="color: #f3c924; height: 52px">Subscribe Now</p> 
+                    <p id="heading">
+                        to Our Newsletter
+                    </p>
+                    <img src="./images/rocket.png" alt="rocket" id="rocket" />
+                    <p id="content"style="height: 22px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                    <p id="content" style="height: 22px;">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+                    <p id="content"style="height: 35px;">minim veniam, quis nostrud exercitation ullamco laboris</p>
+
+                <!-- name and email input fields -->
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+                <!-- send button -->
+                <button id="send">Send <i class="fa-solid fa-caret-right"></i></button>
+            </div>
+            <!-- container containing the image on the right side -->
+            <div class="rightContainer">
+
+                <img src="./images/yellowEllipse.png" alt="yellowEllipse" id="yellowEllipse" />
+                <img src="./images/ring.png" alt="ring" id="ring" />
+                <img src="./images/profile.png" alt="profile" id="profile" />
+            <!-- message icon -->
+                <img src="./images/message.png" alt="message" id="message" />
+            <!-- dart icon -->
+                <img src="./images/dart.png" alt="dart" id="dart"/>
+            </div>
+        </div>
+        <!-- footer containing the scrollbar icon -->
+        <footer>
+            <img src="./images/rounded_rectangle.png" alt="blankRect" id="blankRect" />
+            <img src="./images/rectangle.jpg" alt="yellowRect" id="yellowRect" />
+        </footer>
+    </div>
+</body>
+</html>
